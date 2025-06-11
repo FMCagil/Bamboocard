@@ -1,0 +1,119 @@
+﻿{
+  "InstalledPluginNames": [
+    "Obsolete field, using only for compatibility"
+  ],
+  "InstalledPlugins": [
+    {
+      "SystemName": "Payments.PayPalCommerce",
+      "Version": "4.80.17"
+    },
+    {
+      "SystemName": "Widgets.Swiper",
+      "Version": "4.80.1"
+    },
+    {
+      "SystemName": "DiscountRequirement.MustBeAssignedToCustomerRole",
+      "Version": "4.80.3"
+    },
+    {
+      "SystemName": "MultiFactorAuth.GoogleAuthenticator",
+      "Version": "4.80.4"
+    },
+    {
+      "SystemName": "Misc.NopMobileApp",
+      "Version": "4.80.6"
+    },
+    {
+      "SystemName": "Payments.Manual",
+      "Version": "4.80.3"
+    },
+    {
+      "SystemName": "Misc.PowerBI",
+      "Version": "4.80.5"
+    },
+    {
+      "SystemName": "Misc.Omnisend",
+      "Version": "4.80.6"
+    },
+    {
+      "SystemName": "Misc.Brevo",
+      "Version": "4.80.6"
+    },
+    {
+      "SystemName": "Misc.Zettle",
+      "Version": "4.80.6"
+    },
+    {
+      "SystemName": "Widgets.FacebookPixel",
+      "Version": "4.80.4"
+    },
+    {
+      "SystemName": "Tax.FixedOrByCountryStateZip",
+      "Version": "4.80.3"
+    },
+    {
+      "SystemName": "Payments.AmazonPay",
+      "Version": "4.80.8"
+    },
+    {
+      "SystemName": "Shipping.UPS",
+      "Version": "4.80.5"
+    },
+    {
+      "SystemName": "Payments.CheckMoneyOrder",
+      "Version": "4.80.3"
+    },
+    {
+      "SystemName": "Tax.Avalara",
+      "Version": "4.80.7"
+    },
+    {
+      "SystemName": "Widgets.AccessiBe",
+      "Version": "4.80.1"
+    },
+    {
+      "SystemName": "Shipping.FixedByWeightByTotal",
+      "Version": "4.80.4"
+    },
+    {
+      "SystemName": "Search.Lucene",
+      "Version": "4.80.5"
+    },
+    {
+      "SystemName": "Widgets.GoogleAnalytics",
+      "Version": "4.80.3"
+    },
+    {
+      "SystemName": "Misc.WebApi.Frontend",
+      "Version": "4.80.6"
+    },
+    {
+      "SystemName": "Misc.OmnibusDirective",
+      "Version": "4.80.4"
+    },
+    {
+      "SystemName": "CurrencyExchange.ECB",
+      "Version": "4.80.3"
+    },
+    {
+      "SystemName": "Pickup.PickupInStore",
+      "Version": "4.80.5"
+    },
+    {
+      "SystemName": "ExternalAuth.Facebook",
+      "Version": "4.80.5"
+    },
+    {
+      "SystemName": "DiscountRequirement.OrderHistory",
+      "Version": "4.80.0"
+    }
+  ],
+  "PluginNamesToUninstall": [],
+  "PluginNamesToDelete": [],
+  "PluginNamesToInstall": [
+    {
+      "Item1": "DiscountRequirement.CustomerOrderHistory",
+      "Item2": "942a3075-6c3a-45c8-a211-302a18d0c84a"
+    }
+  ]
+}

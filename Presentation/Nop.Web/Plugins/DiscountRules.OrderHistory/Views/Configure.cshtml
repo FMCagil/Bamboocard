@@ -1,0 +1,92 @@
+@model Nop.Plugin.DiscountRules.OrderHistory.Models.ConfigurationModel
+
+@inject Nop.Core.IWebHelper webHelper
+
+@{
+Layout = "_ConfigurePlugin";
+}
+
+<script>
+    $(function () {
+        $('#saveorderhistoryrequirement').click(function () {
+            var isEnabled = $("#@Html.IdFor(model => model.IsEnabled)").is(":checked");
+            var minOrderCount = $("#@Html.IdFor(model => model.MinOrderCount)").val();
+            var discountPercentage = $("#@Html.IdFor(model => model.DiscountPercentage)").val();
+
+            var postData = {
+                IsEnabled: isEnabled,
+                MinOrderCount: minOrderCount,
+                DiscountPercentage: discountPercentage
+            };
+
+            addAntiForgeryToken(postData);
+
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "@(Url.Action("Configure", "DiscountRulesOrderHistory"))",
+                data: postData,
+                success: function (data, textStatus, jqXHR) {
+                    var $alertInfoEl = $("#saveorderhistoryrequirementAlert-info");
+                    let response = jqXHR.responseJSON;
+                    if (response instanceof Object && response.hasOwnProperty('Errors')) {
+                        var errorMessages = '';
+                        $.each(response.Errors, function (i, error) {
+                            errorMessages += error;
+                            if (response.Errors.length - 1 != i)
+                                errorMessages += '</br>';
+                        });
+                        $alertInfoEl.html(errorMessages);
+                        $("#saveorderhistoryrequirementAlert").trigger("click");
+                        return;
+                    }
+
+                    $('#pnl-save-requirement-result').fadeIn("slow").delay(1000).fadeOut("slow");
+                },
+                error: function () {
+                    $("#saveorderhistoryrequirementAlert-info").html('@T("Admin.Promotions.Discounts.Requirements.FailedToSave")');
+                    $("#saveorderhistoryrequirementAlert").trigger("click");
+                }
+            });
+        });
+    });
+</script>
+
+<div class="form-group row">
+    <label class="col-md-3 col-form-label">Aktif</label>
+    <div class="col-md-9">
+        <input type="checkbox" asp-for="IsEnabled" class="form-check-input" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <label class="col-md-3 col-form-label">Minimum Sipariş Sayısı</label>
+    <div class="col-md-9">
+        <input type="number" asp-for="MinOrderCount" class="form-control" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <label class="col-md-3 col-form-label">İndirim Oranı (%)</label>
+    <div class="col-md-9">
+        <input type="number" asp-for="DiscountPercentage" class="form-control" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="offset-md-3 col-md-9">
+        <button type="button" id="saveorderhistoryrequirement" class="btn btn-primary">
+            @T("Admin.Common.Save")
+        </button>
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="offset-md-3 col-md-9 requirement-messages-col">
+        <div id="pnl-save-requirement-result" style="display: none;" class="text-green margin-t-5">
+            @T("Admin.Promotions.Discounts.Requirements.Saved")
+        </div>
+    </div>
+</div>
+
+<nop-alert asp-alert-id="saveorderhistoryrequirementAlert" />

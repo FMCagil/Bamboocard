@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Discount requirements",
+  "FriendlyName": "Discount for customers who placed more than 3 orders",
+  "SystemName": "DiscountRequirement.OrderHistory",
+  "Version": "4.80.0",
+  "SupportedVersions": [ "4.80" ],
+  "Author": "Fehmi Çağıl",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.DiscountRules.OrderHistory.dll",
+  "Description": "This plugin allows you to set up discounts for customers who have placed 3 or more orders."
+}

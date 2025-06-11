@@ -1,0 +1,32 @@
+﻿version: '3.9'
+
+services:
+  nop.db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64         # <<< I am using Mac M3 so I added this part
+    container_name: nop-db
+    environment:
+      - SA_PASSWORD=YourStrong!Passw0rd
+      - ACCEPT_EULA=Y
+    ports:
+      - 11433:1433
+    volumes:
+      - nopdata:/var/opt/mssql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  nop.web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nop-web
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=nop.db,1433;Database=nop-sql;User Id=nopuser;Password=UserStrongPwd123;TrustServerCertificate=True;
+    ports:
+      - 8080:8080
+    depends_on:
+      - nop.db
+
+volumes:
+  nopdata:
+
