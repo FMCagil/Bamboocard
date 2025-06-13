@@ -4,6 +4,11 @@
 
 This project uses Docker to facilitate seamless setup and deployment. With Docker Compose, both the SQL Server and ASP.NET Core web application are automatically configured and started together. The SQL Server container includes an initialization script that restores the database from a backup during startup.
 
+Nop admin user : admin@yourstore.com
+password : 123.123
+
+NOT: discount plugin require 3 and more orders with payment status paid and order status is complated
+
 ## Requirements
 - Docker and Docker Compose must be installed
 
