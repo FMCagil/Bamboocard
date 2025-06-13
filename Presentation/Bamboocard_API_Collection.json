@@ -1,0 +1,78 @@
+{
+  "info": {
+    "name": "Bamboocard API",
+    "_postman_id": "some-unique-id",
+    "description": "Collection for Bamboocard API testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login to get JWT Token",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"email\": \"admin@yourstore.com\", \"password\": \"123.123\"}"
+        },
+        "url": {
+          "raw": "http://localhost:8012/api/auth/login/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8012",
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Orders by Email",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8012/api/orders/by-email?email=admin@yourstore.com",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8012",
+          "path": [
+            "api",
+            "orders",
+            "by-email"
+          ],
+          "query": [
+            {
+              "key": "email",
+              "value": "admin@yourstore.com"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "jwt_token",
+      "value": ""
+    }
+  ]
+}

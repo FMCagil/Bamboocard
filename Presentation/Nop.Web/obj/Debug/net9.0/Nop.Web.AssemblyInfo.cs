@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Nop.Web is also an MVC web application project, a presentation layer for public s" +
     "tore and admin area."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("4.80.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("4.80+971a8c2c16588821af371946c2977c828fb803d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("4.80+28260c1d638b3d84b9f82f145771cf2df6756eea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nop.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nop.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("4.80.0.0")]

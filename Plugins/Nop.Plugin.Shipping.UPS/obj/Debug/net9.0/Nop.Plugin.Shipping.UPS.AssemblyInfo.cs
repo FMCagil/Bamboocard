@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © Nop Solutions, Ltd")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+971a8c2c16588821af371946c2977c828fb803d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28260c1d638b3d84b9f82f145771cf2df6756eea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nop.Plugin.Shipping.UPS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nop.Plugin.Shipping.UPS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
