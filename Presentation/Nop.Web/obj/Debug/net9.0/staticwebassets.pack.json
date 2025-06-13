@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets/bundles/'lib_npm'filepond'filepond.min.js__YBOGH95sGCevAG56sHQqQItNteQ.cache"
     },
     {
+      "Id": "/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/wwwroot/bundles/'lib_npm'filepond-plugin-file-validate-type'filepond-plugin-file-validate-type.min.js__2sak-_Ex0FZ0MSVr2JuHVc21K1M.cache",
+      "PackagePath": "staticwebassets/bundles/'lib_npm'filepond-plugin-file-validate-type'filepond-plugin-file-validate-type.min.js__2sak-_Ex0FZ0MSVr2JuHVc21K1M.cache"
+    },
+    {
       "Id": "/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/wwwroot/bundles/'lib_npm'filepond-plugin-get-file'filepond-plugin-get-file.min.js__SOwCj0zB-ttccxjsez_-R2LrayE.cache",
       "PackagePath": "staticwebassets/bundles/'lib_npm'filepond-plugin-get-file'filepond-plugin-get-file.min.js__SOwCj0zB-ttccxjsez_-R2LrayE.cache"
     },
@@ -1975,6 +1979,10 @@
     {
       "Id": "/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/wwwroot/images/thumbs/0000080_banner_2.webp",
       "PackagePath": "staticwebassets/images/thumbs/0000080_banner_2.webp"
+    },
+    {
+      "Id": "/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/wwwroot/images/thumbs/default-image_100.png",
+      "PackagePath": "staticwebassets/images/thumbs/default-image_100.png"
     },
     {
       "Id": "/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/wwwroot/images/thumbs/placeholder.txt",

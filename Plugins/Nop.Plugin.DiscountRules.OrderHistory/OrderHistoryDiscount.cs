@@ -70,6 +70,8 @@ namespace Nop.Plugin.DiscountRules.OrderHistory;
             await _localizationService.AddOrUpdateLocaleResourceAsync(new Dictionary<string, string>
             {
                 ["Plugins.DiscountRules.OrderHistory.Fields.MinOrderCount"] = "Minimum order count",
+                ["Plugins.DiscountRules.OrderHistory.Fields.DiscountPercentage"] = "Discount percentage %",
+                ["Plugins.DiscountRules.OrderHistory.Fields.IsActive"] = "Discount percentage %",
                 ["Plugins.DiscountRules.OrderHistory.Fields.MinOrderCount.Hint"] = "Discount will be applied if the customer's total number of previous orders is equal to or greater than this value.",
                 ["Plugins.DiscountRules.OrderHistory.Fields.MinOrderCount.Required"] = "Minimum order count is required",
                 ["Plugins.DiscountRules.OrderHistory.Fields.DiscountId.Required"] = "Discount is required"

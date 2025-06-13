@@ -320,3 +320,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Pickup.PickupInStore/obj/Debug/net9.0/refint/Nop.Plugin.Pickup.PickupInStore.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Pickup.PickupInStore/obj/Debug/net9.0/Nop.Plugin.Pickup.PickupInStore.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Pickup.PickupInStore/obj/Debug/net9.0/ref/Nop.Plugin.Pickup.PickupInStore.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Pickup.PickupInStore/obj/Debug/net9.0/Nop.Plugin.Pickup.PickupInStore.sourcelink.json

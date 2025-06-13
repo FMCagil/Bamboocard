@@ -317,3 +317,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Search.Lucene/obj/Debug/net9.0/refint/Nop.Plugin.Search.Lucene.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Search.Lucene/obj/Debug/net9.0/Nop.Plugin.Search.Lucene.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Search.Lucene/obj/Debug/net9.0/ref/Nop.Plugin.Search.Lucene.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Search.Lucene/obj/Debug/net9.0/Nop.Plugin.Search.Lucene.sourcelink.json

@@ -102,14 +102,10 @@
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.CSharp.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Caching.Abstractions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Caching.Memory.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.Binder.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.CommandLine.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.FileExtensions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.Ini.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.Json.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.KeyPerFile.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.UserSecrets.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Configuration.Xml.dll
@@ -120,11 +116,8 @@
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Diagnostics.HealthChecks.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Features.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.FileProviders.Composite.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.FileProviders.Embedded.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.FileProviders.Physical.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Hosting.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Http.dll
@@ -144,7 +137,6 @@
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Options.ConfigurationExtensions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Options.DataAnnotations.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Options.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.Primitives.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Extensions.WebEncoders.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.JSInterop.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/Microsoft.Net.Http.Headers.dll
@@ -205,7 +197,6 @@
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.IO.FileSystem.Watcher.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.IO.IsolatedStorage.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.IO.MemoryMappedFiles.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.IO.Pipelines.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.IO.Pipes.AccessControl.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.IO.Pipes.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.IO.UnmanagedMemoryStream.dll
@@ -284,8 +275,6 @@
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Text.Encoding.CodePages.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Text.Encoding.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Text.Encoding.Extensions.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Text.Encodings.Web.dll
-/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Text.Json.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Text.RegularExpressions.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Threading.Channels.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/refs/System.Threading.dll
@@ -324,3 +313,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj/Debug/net9.0/refint/Nop.Plugin.Widgets.GoogleAnalytics.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj/Debug/net9.0/Nop.Plugin.Widgets.GoogleAnalytics.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj/Debug/net9.0/ref/Nop.Plugin.Widgets.GoogleAnalytics.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj/Debug/net9.0/Nop.Plugin.Widgets.GoogleAnalytics.sourcelink.json

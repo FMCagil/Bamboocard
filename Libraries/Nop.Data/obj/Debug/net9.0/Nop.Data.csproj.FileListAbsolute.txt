@@ -315,3 +315,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Data/obj/Debug/net9.0/refint/Nop.Data.dll
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Data/obj/Debug/net9.0/Nop.Data.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Data/obj/Debug/net9.0/ref/Nop.Data.dll
+/Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Data/obj/Debug/net9.0/Nop.Data.sourcelink.json

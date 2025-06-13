@@ -315,3 +315,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.ExchangeRate.EcbExchange/obj/Debug/net9.0/refint/Nop.Plugin.ExchangeRate.EcbExchange.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.ExchangeRate.EcbExchange/obj/Debug/net9.0/Nop.Plugin.ExchangeRate.EcbExchange.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.ExchangeRate.EcbExchange/obj/Debug/net9.0/ref/Nop.Plugin.ExchangeRate.EcbExchange.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.ExchangeRate.EcbExchange/obj/Debug/net9.0/Nop.Plugin.ExchangeRate.EcbExchange.sourcelink.json

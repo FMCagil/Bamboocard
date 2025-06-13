@@ -317,3 +317,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Services/obj/Debug/net9.0/refint/Nop.Services.dll
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Services/obj/Debug/net9.0/Nop.Services.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Services/obj/Debug/net9.0/ref/Nop.Services.dll
+/Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Services/obj/Debug/net9.0/Nop.Services.sourcelink.json

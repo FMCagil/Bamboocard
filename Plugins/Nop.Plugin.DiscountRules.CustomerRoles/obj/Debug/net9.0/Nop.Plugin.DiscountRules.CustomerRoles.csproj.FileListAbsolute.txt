@@ -317,3 +317,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/net9.0/refint/Nop.Plugin.DiscountRules.CustomerRoles.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/net9.0/Nop.Plugin.DiscountRules.CustomerRoles.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/net9.0/ref/Nop.Plugin.DiscountRules.CustomerRoles.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/net9.0/Nop.Plugin.DiscountRules.CustomerRoles.sourcelink.json

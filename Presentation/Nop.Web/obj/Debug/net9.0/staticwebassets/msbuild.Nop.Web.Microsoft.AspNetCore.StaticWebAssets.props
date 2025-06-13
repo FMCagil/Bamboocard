@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zpwiy4ehes</Fingerprint>
-      <Integrity>2XddCKG99liZwvzBxmJr3Y/WC0Yt7XnQ9Riv3Su/OVI=</Integrity>
+      <Fingerprint>6jbpoj65kb</Fingerprint>
+      <Integrity>oupEidsoM4cH+qYN7jcvoplbqIH9oVFNQIsPFksLvzI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bundles\'css'i5clelr-8m3ym7ncuqvosw.styles.css__YpsSulTmQTH_-Vr3h_NVn3ILgwU.cache'))</OriginalItemSpec>
@@ -359,6 +359,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bundles\'lib_npm'filepond'filepond.min.js__YBOGH95sGCevAG56sHQqQItNteQ.cache'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bundles\'lib_npm'filepond-plugin-file-validate-type'filepond-plugin-file-validate-type.min.js__2sak-_Ex0FZ0MSVr2JuHVc21K1M.cache'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Nop.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Nop.Web</BasePath>
+      <RelativePath>bundles/'lib_npm'filepond-plugin-file-validate-type'filepond-plugin-file-validate-type.min.js__2sak-_Ex0FZ0MSVr2JuHVc21K1M.cache</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yqd3ap073l</Fingerprint>
+      <Integrity>pon4Bu1R13ie4RBS/zgLHMPA0ck0HxmzLeNtQlMsJ30=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bundles\'lib_npm'filepond-plugin-file-validate-type'filepond-plugin-file-validate-type.min.js__2sak-_Ex0FZ0MSVr2JuHVc21K1M.cache'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bundles\'lib_npm'filepond-plugin-get-file'filepond-plugin-get-file.min.js__SOwCj0zB-ttccxjsez_-R2LrayE.cache'))">
       <SourceType>Package</SourceType>
@@ -8891,6 +8909,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\thumbs\0000080_banner_2.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\thumbs\default-image_100.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Nop.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Nop.Web</BasePath>
+      <RelativePath>images/thumbs/default-image_100.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ktsu47a8vz</Fingerprint>
+      <Integrity>aI1qEUk20g06yua6+gNWF4dQVsTVNN9K+R2ERzMu+So=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\thumbs\default-image_100.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\thumbs\placeholder.txt'))">
       <SourceType>Package</SourceType>

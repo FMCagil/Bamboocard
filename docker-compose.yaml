@@ -1,32 +1,59 @@
-﻿version: '3.9'
-
-services:
-  nop.db:
+﻿services:
+  sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    platform: linux/amd64         # <<< I am using Mac M3 so I added this part
-    container_name: nop-db
+    container_name: nop-sql
+    platform: linux/amd64
     environment:
-      - SA_PASSWORD=YourStrong!Passw0rd
-      - ACCEPT_EULA=Y
+      - "ACCEPT_EULA=Y"
+      - "MSSQL_SA_PASSWORD=6111098.Cc"
+      - "MSSQL_PID=Developer"
+      - "MSSQL_ENCRYPT: OPTIONAL"               # Added to handle encryption
+      - "MSSQL_TRUST_CERT: true"               # Added to trust self-signed cert
+
+    user: root
     ports:
-      - 11433:1433
+      - "1433:1433"
+    networks:
+      - nop-network
     volumes:
-      - nopdata:/var/opt/mssql
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./init/nop-sql.bak:/init/nop-sql.bak
+      - ./restore.sql:/restore/restore.sql
+      - ./init.sh:/init.sh
+      - ./data:/var/opt/mssql/data
+
+    command: bash -c '/opt/mssql/bin/sqlservr & sleep 30 && /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "6111098.Cc" -i /restore/restore.sql -N -C && tail -f /dev/null'
+    restart: unless-stopped
+
+    # command: ["/init.sh"]
+    # healthcheck:
+    #   test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "6111098.Cc", "-Q", "SELECT 1", "N", "-C", "-b"]
+    #   interval: 10s
+    #   timeout: 10s
+    #   retries: 3
+
 
   nop.web:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: nop-web
+    container_name: nop.web
+    depends_on:
+      - sqlserver
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection=Server=nop.db,1433;Database=nop-sql;User Id=nopuser;Password=UserStrongPwd123;TrustServerCertificate=True;
+      - ASPNETCORE_URLS=http://0.0.0.0:8012
+      - ConnectionStrings__DefaultConnection=Server=sqlserver:1433;Database=nop-sql;User Id=sa;Password=6111098.Cc;TrustServerCertificate=True;
     ports:
-      - 8080:8080
-    depends_on:
-      - nop.db
+      - "8012:8012"
+    networks:
+      - nop-network
+
+    restart: always
+
+networks:
+  nop-network:
+    driver: bridge
+
 
 volumes:
-  nopdata:
-
+  sql_data:

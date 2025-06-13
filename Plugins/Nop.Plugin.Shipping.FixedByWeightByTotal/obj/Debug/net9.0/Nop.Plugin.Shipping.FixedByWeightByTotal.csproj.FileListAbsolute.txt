@@ -322,3 +322,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.FixedByWeightByTotal/obj/Debug/net9.0/refint/Nop.Plugin.Shipping.FixedByWeightByTotal.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.FixedByWeightByTotal/obj/Debug/net9.0/Nop.Plugin.Shipping.FixedByWeightByTotal.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.FixedByWeightByTotal/obj/Debug/net9.0/ref/Nop.Plugin.Shipping.FixedByWeightByTotal.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.FixedByWeightByTotal/obj/Debug/net9.0/Nop.Plugin.Shipping.FixedByWeightByTotal.sourcelink.json

@@ -312,3 +312,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Core/obj/Debug/net9.0/refint/Nop.Core.dll
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Core/obj/Debug/net9.0/Nop.Core.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Core/obj/Debug/net9.0/ref/Nop.Core.dll
+/Users/fehmicagil/SourceCode/BambooCard/Libraries/Nop.Core/obj/Debug/net9.0/Nop.Core.sourcelink.json

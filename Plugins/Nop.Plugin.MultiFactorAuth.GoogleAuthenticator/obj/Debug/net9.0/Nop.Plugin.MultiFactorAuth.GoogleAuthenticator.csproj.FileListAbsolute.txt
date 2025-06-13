@@ -319,3 +319,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator/obj/Debug/net9.0/refint/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator/obj/Debug/net9.0/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator/obj/Debug/net9.0/ref/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator/obj/Debug/net9.0/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.sourcelink.json

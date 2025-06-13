@@ -319,3 +319,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Tax.FixedOrByCountryStateZip/obj/Debug/net9.0/refint/Nop.Plugin.Tax.FixedOrByCountryStateZip.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Tax.FixedOrByCountryStateZip/obj/Debug/net9.0/Nop.Plugin.Tax.FixedOrByCountryStateZip.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Tax.FixedOrByCountryStateZip/obj/Debug/net9.0/ref/Nop.Plugin.Tax.FixedOrByCountryStateZip.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Tax.FixedOrByCountryStateZip/obj/Debug/net9.0/Nop.Plugin.Tax.FixedOrByCountryStateZip.sourcelink.json

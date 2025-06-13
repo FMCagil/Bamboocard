@@ -317,3 +317,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.NopMobileApp/obj/Debug/net9.0/refint/Nop.Plugin.Misc.NopMobileApp.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.NopMobileApp/obj/Debug/net9.0/Nop.Plugin.Misc.NopMobileApp.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.NopMobileApp/obj/Debug/net9.0/ref/Nop.Plugin.Misc.NopMobileApp.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.NopMobileApp/obj/Debug/net9.0/Nop.Plugin.Misc.NopMobileApp.sourcelink.json

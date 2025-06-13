@@ -263,11 +263,16 @@ public static class ServiceCollectionExtensions
         }
         else
         {
-            var dataProtectionKeysPath = CommonHelper.DefaultFileProvider.MapPath(NopDataProtectionDefaults.DataProtectionKeysPath);
-            var dataProtectionKeysFolder = new System.IO.DirectoryInfo(dataProtectionKeysPath);
+            // var dataProtectionKeysPath = CommonHelper.DefaultFileProvider.MapPath(NopDataProtectionDefaults.DataProtectionKeysPath);
+            // var dataProtectionKeysFolder = new System.IO.DirectoryInfo(dataProtectionKeysPath);
+            //
+            // //configure the data protection system to persist keys to the specified directory
+            // services.AddDataProtection().PersistKeysToFileSystem(dataProtectionKeysFolder);
+            
+            // var directoryPath = "/app/App_Data/DataProtectionKeys/"; // host'taki dizin
+            // var directoryInfo = new DirectoryInfo(directoryPath);
+            //services.AddDataProtection().PersistKeysToFileSystem(directoryInfo);
 
-            //configure the data protection system to persist keys to the specified directory
-            services.AddDataProtection().PersistKeysToFileSystem(dataProtectionKeysFolder);
         }
     }
 

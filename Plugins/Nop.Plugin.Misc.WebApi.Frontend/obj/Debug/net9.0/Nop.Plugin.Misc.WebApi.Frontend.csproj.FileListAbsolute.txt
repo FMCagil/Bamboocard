@@ -317,3 +317,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.WebApi.Frontend/obj/Debug/net9.0/refint/Nop.Plugin.Misc.WebApi.Frontend.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.WebApi.Frontend/obj/Debug/net9.0/Nop.Plugin.Misc.WebApi.Frontend.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.WebApi.Frontend/obj/Debug/net9.0/ref/Nop.Plugin.Misc.WebApi.Frontend.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.WebApi.Frontend/obj/Debug/net9.0/Nop.Plugin.Misc.WebApi.Frontend.sourcelink.json

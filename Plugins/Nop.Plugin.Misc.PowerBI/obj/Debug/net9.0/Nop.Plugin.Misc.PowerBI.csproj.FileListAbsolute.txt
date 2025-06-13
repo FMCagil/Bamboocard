@@ -317,3 +317,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.PowerBI/obj/Debug/net9.0/refint/Nop.Plugin.Misc.PowerBI.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.PowerBI/obj/Debug/net9.0/Nop.Plugin.Misc.PowerBI.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.PowerBI/obj/Debug/net9.0/ref/Nop.Plugin.Misc.PowerBI.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Misc.PowerBI/obj/Debug/net9.0/Nop.Plugin.Misc.PowerBI.sourcelink.json

@@ -317,3 +317,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/net9.0/refint/Nop.Plugin.Shipping.UPS.dll
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/net9.0/Nop.Plugin.Shipping.UPS.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/net9.0/ref/Nop.Plugin.Shipping.UPS.dll
+/Users/fehmicagil/SourceCode/BambooCard/Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/net9.0/Nop.Plugin.Shipping.UPS.sourcelink.json

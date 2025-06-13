@@ -319,3 +319,4 @@
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web.Framework/obj/Debug/net9.0/refint/Nop.Web.Framework.dll
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web.Framework/obj/Debug/net9.0/Nop.Web.Framework.pdb
 /Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web.Framework/obj/Debug/net9.0/ref/Nop.Web.Framework.dll
+/Users/fehmicagil/SourceCode/BambooCard/Presentation/Nop.Web.Framework/obj/Debug/net9.0/Nop.Web.Framework.sourcelink.json

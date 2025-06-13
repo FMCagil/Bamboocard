@@ -22,6 +22,16 @@ public partial class Program
         //load application settings
         builder.Services.ConfigureApplicationSettings(builder);
 
+        //port
+        //builder.WebHost.UseUrls("http://localhost:8080", "https://localhost:8081");
+        builder.WebHost.UseUrls("http://0.0.0.0:8012");
+
+        // builder.WebHost.ConfigureKestrel(options =>
+        // {
+        //     options.ListenAnyIP(8080); // sadece HTTP
+        // });
+
+        
         var appSettings = Singleton<AppSettings>.Instance;
         var useAutofac = appSettings.Get<CommonConfig>().UseAutofac;
 
