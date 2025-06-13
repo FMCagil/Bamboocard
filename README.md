@@ -63,4 +63,39 @@ By following these steps, your SQL Server and web application will be automatica
 
 ---
 
+
+## About the Included Plugins
+
+The project comes with a pre-installed **nopCommerce plugin** named:
+
+**`Nop.Plugin.DiscountRules.OrderHistory`**
+
+This plugin provides discounts for customers who have placed more than 3 orders. Specifically:
+
+- **Use case:** Discount for customers who have placed 3 or more orders.
+- **Functionality:**  
+  After installation, you can configure settings by clicking the **Configure** button from the plugin list in nopCommerce admin panel. The available options are:
+
+  - **isActive**  
+    Activates or deactivates the discount rule.
+
+  - **Minimum Orders (`discountfororders`)**  
+    Discount will be applied if the customer's total number of previous orders is **equal to or greater than** this value.
+
+  - **Discount Percentage (`discountpercentage`)**  
+    The discount percentage to be applied.
+
+### Plugin Deployment
+If you wish to use this plugin in a different nopCommerce project, simply copy the plugin folder (`Nop.Plugin.DiscountRules.OrderHistory`) into the **`Plugins`** directory of that project and run the application.
+
+---
+
+## Additional Features
+
+### Product Attribute Search Enhancements
+Under the **Catalog** menu, a new optional feature has been added to the **Product Attributes** section, allowing users to search products by name more efficiently.
+
+---
+
+
 If you'd like, I can help you refine your `docker-compose.yml` or any other configuration files. Feel free to ask for further assistance!
