@@ -66,27 +66,27 @@ By following these steps, your SQL Server and web application will be automatica
 
 ## About the Included Plugins
 
-The project comes with a pre-installed **nopCommerce plugin** named:
+The project includes a pre-installed **nopCommerce plugin** named:
 
 **`Nop.Plugin.DiscountRules.OrderHistory`**
 
-This plugin provides discounts for customers who have placed more than 3 orders. Specifically:
+This plugin offers discounts for customers who have placed more than 3 orders. Details:
 
-- **Use case:** Discount for customers who have placed 3 or more orders.
+- **Use Case:** Discount for customers with 3 or more orders.
 - **Functionality:**  
-  After installation, you can configure settings by clicking the **Configure** button from the plugin list in nopCommerce admin panel. The available options are:
+  After installation, you can configure the settings by clicking the **Configure** button in the plugin list within the nopCommerce admin panel. The configurable options are:
 
   - **isActive**  
-    Activates or deactivates the discount rule.
+    Enables or disables the discount rule.
 
   - **Minimum Orders (`discountfororders`)**  
-    Discount will be applied if the customer's total number of previous orders is **equal to or greater than** this value.
+    The discount will be applied if the customer's total previous orders are **greater than or equal to** this value.
 
   - **Discount Percentage (`discountpercentage`)**  
-    The discount percentage to be applied.
+    The percentage of discount to be applied.
 
 ### Plugin Deployment
-If you wish to use this plugin in a different nopCommerce project, simply copy the plugin folder (`Nop.Plugin.DiscountRules.OrderHistory`) into the **`Plugins`** directory of that project and run the application.
+If you'd like to use this plugin on a different nopCommerce project, simply copy the `Nop.Plugin.DiscountRules.OrderHistory` folder into the **`Plugins`** directory of that project and run the application.
 
 ---
 
@@ -97,5 +97,67 @@ Under the **Catalog** menu, a new optional feature has been added to the **Produ
 
 ---
 
+## Postman API Testing
 
-If you'd like, I can help you refine your `docker-compose.yml` or any other configuration files. Feel free to ask for further assistance!
+Below are the steps to test the API securely using Postman with JWT authentication:
+
+### 1. Obtain JWT Token (Login)
+- **Request URL:**
+
+[http://localhost:8012/api/auth/login/](http://localhost:8012/api/auth/login/)
+
+- **Method:** `POST`
+
+- **Request Body:**
+
+json { "email": "admin@yourstore.com", "password": "123.123" }
+
+
+- **Response:**  
+  You will receive a JWT token, e.g.,
+
+json { "token": "YOUR_JWT_TOKEN_HERE", "expires": "2025-07-01T12:34:56Z" }
+
+Save this token; you'll need it in the next step.
+
+---
+
+### 2. Retrieve Orders by Email
+- **Request URL:**
+- 
+[http://localhost:8012/api/orders/by-email?email=admin@yourstore.com](http://localhost:8012/api/orders/by-email?email=admin@yourstore.com)
+
+- **Method:** `GET`
+
+- **Headers:**  
+  - Key: `Authorization`  
+  - Value: `Bearer YOUR_JWT_TOKEN_HERE`
+
+Replace `YOUR_JWT_TOKEN_HERE` with the token you obtained in step 1.
+
+---
+
+### Using Postman
+1. **Login Request:**  
+   - URL: `http://localhost:8012/api/auth/login/`  
+   - Method: `POST`  
+   - Body: Use the JSON provided above to log in and get the token.
+
+2. **Order Retrieval Request:**  
+   - URL: `http://localhost:8012/api/orders/by-email?email=admin@yourstore.com`  
+   - Method: `GET`  
+   - Headers:  
+     - Key: `Authorization`  
+     - Value: `Bearer <your-token>`
+
+   Replace `<your-token>` with the token obtained in step 1.  
+   Send the request to see the order details.
+
+
+Finally, the Postman collection file for testing the API is located in the root folder, named **`Bamboocard_API_Collection.json`**.
+ 
+---
+
+
+
+
